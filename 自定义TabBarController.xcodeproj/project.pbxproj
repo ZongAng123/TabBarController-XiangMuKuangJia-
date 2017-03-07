@@ -9,12 +9,42 @@
 /* Begin PBXBuildFile section */
 		748897881E6E51B400FFD0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897871E6E51B400FFD0C0 /* main.m */; };
 		7488978B1E6E51B400FFD0C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7488978A1E6E51B400FFD0C0 /* AppDelegate.m */; };
-		7488978E1E6E51B400FFD0C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7488978D1E6E51B400FFD0C0 /* ViewController.m */; };
 		748897911E6E51B400FFD0C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7488978F1E6E51B400FFD0C0 /* Main.storyboard */; };
 		748897931E6E51B400FFD0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748897921E6E51B400FFD0C0 /* Assets.xcassets */; };
 		748897961E6E51B400FFD0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748897941E6E51B400FFD0C0 /* LaunchScreen.storyboard */; };
 		748897A11E6E51B400FFD0C0 /* ___TabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897A01E6E51B400FFD0C0 /* ___TabBarControllerTests.m */; };
 		748897AC1E6E51B400FFD0C0 /* ___TabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897AB1E6E51B400FFD0C0 /* ___TabBarControllerUITests.m */; };
+		748897BC1E6E53D600FFD0C0 /* ZATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897BB1E6E53D600FFD0C0 /* ZATabBarController.m */; };
+		748897BF1E6E53F800FFD0C0 /* ZATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897BE1E6E53F800FFD0C0 /* ZATabBar.m */; };
+		748897F71E6E577600FFD0C0 /* UIImage+ZAImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897F61E6E577600FFD0C0 /* UIImage+ZAImage.m */; };
+		748897FA1E6E580600FFD0C0 /* ZATabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897F91E6E580600FFD0C0 /* ZATabBarButton.m */; };
+		748897FD1E6E588700FFD0C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897FC1E6E588700FFD0C0 /* MainViewController.m */; };
+		748898001E6E59F600FFD0C0 /* ZABadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 748897FF1E6E59F600FFD0C0 /* ZABadgeView.m */; };
+		748898031E6E5A1C00FFD0C0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 748898021E6E5A1C00FFD0C0 /* UIView+Frame.m */; };
+		748898061E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 748898051E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.m */; };
+		748898211E6E5E2100FFD0C0 /* main_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898091E6E5E2000FFD0C0 /* main_badge@2x.png */; };
+		748898221E6E5E2100FFD0C0 /* main_badge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488980A1E6E5E2000FFD0C0 /* main_badge@3x.png */; };
+		748898231E6E5E2100FFD0C0 /* new_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488980B1E6E5E2000FFD0C0 /* new_dot@2x.png */; };
+		748898241E6E5E2100FFD0C0 /* new_dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488980C1E6E5E2000FFD0C0 /* new_dot@3x.png */; };
+		748898251E6E5E2100FFD0C0 /* tabbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488980D1E6E5E2000FFD0C0 /* tabbar_background@2x.png */; };
+		748898261E6E5E2100FFD0C0 /* tabbar_background_os7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488980E1E6E5E2000FFD0C0 /* tabbar_background_os7@2x.png */; };
+		7488983A1E6E5EE700FFD0C0 /* ZAViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 748898391E6E5EE700FFD0C0 /* ZAViewControllerOne.m */; };
+		7488983D1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7488983C1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.m */; };
+		748898401E6E5F1100FFD0C0 /* ZAViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 7488983F1E6E5F1100FFD0C0 /* ZAViewControllerThree.m */; };
+		748898431E6E5F1D00FFD0C0 /* ZAViewControllerFor.m in Sources */ = {isa = PBXBuildFile; fileRef = 748898421E6E5F1D00FFD0C0 /* ZAViewControllerFor.m */; };
+		7488985C1E6E7D8A00FFD0C0 /* fabu_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488985B1E6E7D8A00FFD0C0 /* fabu_pressed@2x.png */; };
+		7488985E1E6E7D9F00FFD0C0 /* tabbar_mainbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488985D1E6E7D9F00FFD0C0 /* tabbar_mainbtn@2x.png */; };
+		748898701E6E817E00FFD0C0 /* tabbar_message_center_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488986F1E6E817E00FFD0C0 /* tabbar_message_center_selected@3x.png */; };
+		748898721E6E81AC00FFD0C0 /* tabbar_message_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898711E6E81AC00FFD0C0 /* tabbar_message_center@3x.png */; };
+		748898741E6E82A500FFD0C0 /* tabbar_discover_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898731E6E82A500FFD0C0 /* tabbar_discover_selected@3x.png */; };
+		748898761E6E82D300FFD0C0 /* tabbar_discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898751E6E82D300FFD0C0 /* tabbar_discover_selected@2x.png */; };
+		748898781E6E82F900FFD0C0 /* tabbar_discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898771E6E82F900FFD0C0 /* tabbar_discover@3x.png */; };
+		7488987A1E6E832600FFD0C0 /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898791E6E832600FFD0C0 /* tabbar_discover@2x.png */; };
+		7488987C1E6E841500FFD0C0 /* tabbar_profile_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488987B1E6E841500FFD0C0 /* tabbar_profile_selected@3x.png */; };
+		7488987E1E6E843E00FFD0C0 /* tabbar_profile_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488987D1E6E843E00FFD0C0 /* tabbar_profile_selected@2x.png */; };
+		748898801E6E844D00FFD0C0 /* tabbar_profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488987F1E6E844D00FFD0C0 /* tabbar_profile@3x.png */; };
+		748898821E6E846300FFD0C0 /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898811E6E846300FFD0C0 /* tabbar_profile@2x.png */; };
+		748898881E6E8A3000FFD0C0 /* loan@2px.png in Resources */ = {isa = PBXBuildFile; fileRef = 748898871E6E8A3000FFD0C0 /* loan@2px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +69,6 @@
 		748897871E6E51B400FFD0C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		748897891E6E51B400FFD0C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7488978A1E6E51B400FFD0C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7488978C1E6E51B400FFD0C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7488978D1E6E51B400FFD0C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		748897901E6E51B400FFD0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748897921E6E51B400FFD0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748897951E6E51B400FFD0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +79,49 @@
 		748897A71E6E51B400FFD0C0 /* 自定义TabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义TabBarControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748897AB1E6E51B400FFD0C0 /* ___TabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___TabBarControllerUITests.m"; sourceTree = "<group>"; };
 		748897AD1E6E51B400FFD0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748897BA1E6E53D600FFD0C0 /* ZATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZATabBarController.h; sourceTree = "<group>"; };
+		748897BB1E6E53D600FFD0C0 /* ZATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZATabBarController.m; sourceTree = "<group>"; };
+		748897BD1E6E53F800FFD0C0 /* ZATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZATabBar.h; sourceTree = "<group>"; };
+		748897BE1E6E53F800FFD0C0 /* ZATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZATabBar.m; sourceTree = "<group>"; };
+		748897F51E6E577600FFD0C0 /* UIImage+ZAImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZAImage.h"; sourceTree = "<group>"; };
+		748897F61E6E577600FFD0C0 /* UIImage+ZAImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZAImage.m"; sourceTree = "<group>"; };
+		748897F81E6E580600FFD0C0 /* ZATabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZATabBarButton.h; sourceTree = "<group>"; };
+		748897F91E6E580600FFD0C0 /* ZATabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZATabBarButton.m; sourceTree = "<group>"; };
+		748897FB1E6E588700FFD0C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		748897FC1E6E588700FFD0C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		748897FE1E6E59F600FFD0C0 /* ZABadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZABadgeView.h; sourceTree = "<group>"; };
+		748897FF1E6E59F600FFD0C0 /* ZABadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZABadgeView.m; sourceTree = "<group>"; };
+		748898011E6E5A1C00FFD0C0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		748898021E6E5A1C00FFD0C0 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		748898041E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZAItem.h"; sourceTree = "<group>"; };
+		748898051E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZAItem.m"; sourceTree = "<group>"; };
+		748898091E6E5E2000FFD0C0 /* main_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "main_badge@2x.png"; path = "TabBar/main_badge@2x.png"; sourceTree = "<group>"; };
+		7488980A1E6E5E2000FFD0C0 /* main_badge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "main_badge@3x.png"; path = "TabBar/main_badge@3x.png"; sourceTree = "<group>"; };
+		7488980B1E6E5E2000FFD0C0 /* new_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new_dot@2x.png"; path = "TabBar/new_dot@2x.png"; sourceTree = "<group>"; };
+		7488980C1E6E5E2000FFD0C0 /* new_dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new_dot@3x.png"; path = "TabBar/new_dot@3x.png"; sourceTree = "<group>"; };
+		7488980D1E6E5E2000FFD0C0 /* tabbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_background@2x.png"; path = "TabBar/tabbar_background@2x.png"; sourceTree = "<group>"; };
+		7488980E1E6E5E2000FFD0C0 /* tabbar_background_os7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_background_os7@2x.png"; path = "TabBar/tabbar_background_os7@2x.png"; sourceTree = "<group>"; };
+		748898381E6E5EE700FFD0C0 /* ZAViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewControllerOne.h; sourceTree = "<group>"; };
+		748898391E6E5EE700FFD0C0 /* ZAViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewControllerOne.m; sourceTree = "<group>"; };
+		7488983B1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewControllerTwo.h; sourceTree = "<group>"; };
+		7488983C1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewControllerTwo.m; sourceTree = "<group>"; };
+		7488983E1E6E5F1100FFD0C0 /* ZAViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewControllerThree.h; sourceTree = "<group>"; };
+		7488983F1E6E5F1100FFD0C0 /* ZAViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewControllerThree.m; sourceTree = "<group>"; };
+		748898411E6E5F1D00FFD0C0 /* ZAViewControllerFor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewControllerFor.h; sourceTree = "<group>"; };
+		748898421E6E5F1D00FFD0C0 /* ZAViewControllerFor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewControllerFor.m; sourceTree = "<group>"; };
+		7488985B1E6E7D8A00FFD0C0 /* fabu_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fabu_pressed@2x.png"; path = "TabBar/fabu_pressed@2x.png"; sourceTree = "<group>"; };
+		7488985D1E6E7D9F00FFD0C0 /* tabbar_mainbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_mainbtn@2x.png"; path = "TabBar/tabbar_mainbtn@2x.png"; sourceTree = "<group>"; };
+		7488986F1E6E817E00FFD0C0 /* tabbar_message_center_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_message_center_selected@3x.png"; path = "TabBar/tabbar_message_center_selected@3x.png"; sourceTree = "<group>"; };
+		748898711E6E81AC00FFD0C0 /* tabbar_message_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_message_center@3x.png"; path = "TabBar/tabbar_message_center@3x.png"; sourceTree = "<group>"; };
+		748898731E6E82A500FFD0C0 /* tabbar_discover_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_discover_selected@3x.png"; path = "TabBar/tabbar_discover_selected@3x.png"; sourceTree = "<group>"; };
+		748898751E6E82D300FFD0C0 /* tabbar_discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_discover_selected@2x.png"; path = "TabBar/tabbar_discover_selected@2x.png"; sourceTree = "<group>"; };
+		748898771E6E82F900FFD0C0 /* tabbar_discover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_discover@3x.png"; path = "TabBar/tabbar_discover@3x.png"; sourceTree = "<group>"; };
+		748898791E6E832600FFD0C0 /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_discover@2x.png"; path = "TabBar/tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		7488987B1E6E841500FFD0C0 /* tabbar_profile_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_profile_selected@3x.png"; path = "TabBar/tabbar_profile_selected@3x.png"; sourceTree = "<group>"; };
+		7488987D1E6E843E00FFD0C0 /* tabbar_profile_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_profile_selected@2x.png"; path = "TabBar/tabbar_profile_selected@2x.png"; sourceTree = "<group>"; };
+		7488987F1E6E844D00FFD0C0 /* tabbar_profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_profile@3x.png"; path = "TabBar/tabbar_profile@3x.png"; sourceTree = "<group>"; };
+		748898811E6E846300FFD0C0 /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_profile@2x.png"; path = "TabBar/tabbar_profile@2x.png"; sourceTree = "<group>"; };
+		748898871E6E8A3000FFD0C0 /* loan@2px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loan@2px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +172,13 @@
 		748897851E6E51B400FFD0C0 /* 自定义TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				748898441E6E61D100FFD0C0 /* JieDaiBaoImage */,
+				748898371E6E5EAD00FFD0C0 /* ViewController */,
+				748897F11E6E570700FFD0C0 /* ZATabBarResource */,
+				748897B91E6E53B200FFD0C0 /* ZATabBarController */,
 				748897891E6E51B400FFD0C0 /* AppDelegate.h */,
 				7488978A1E6E51B400FFD0C0 /* AppDelegate.m */,
-				7488978C1E6E51B400FFD0C0 /* ViewController.h */,
-				7488978D1E6E51B400FFD0C0 /* ViewController.m */,
+				748898891E6E8DEA00FFD0C0 /* 加号按钮点击进去的视图 */,
 				7488978F1E6E51B400FFD0C0 /* Main.storyboard */,
 				748897921E6E51B400FFD0C0 /* Assets.xcassets */,
 				748897941E6E51B400FFD0C0 /* LaunchScreen.storyboard */,
@@ -138,6 +212,84 @@
 				748897AD1E6E51B400FFD0C0 /* Info.plist */,
 			);
 			path = "自定义TabBarControllerUITests";
+			sourceTree = "<group>";
+		};
+		748897B91E6E53B200FFD0C0 /* ZATabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				748897BA1E6E53D600FFD0C0 /* ZATabBarController.h */,
+				748897BB1E6E53D600FFD0C0 /* ZATabBarController.m */,
+				748897BD1E6E53F800FFD0C0 /* ZATabBar.h */,
+				748897BE1E6E53F800FFD0C0 /* ZATabBar.m */,
+			);
+			name = ZATabBarController;
+			sourceTree = "<group>";
+		};
+		748897F11E6E570700FFD0C0 /* ZATabBarResource */ = {
+			isa = PBXGroup;
+			children = (
+				748897F51E6E577600FFD0C0 /* UIImage+ZAImage.h */,
+				748897F61E6E577600FFD0C0 /* UIImage+ZAImage.m */,
+				748897F81E6E580600FFD0C0 /* ZATabBarButton.h */,
+				748897F91E6E580600FFD0C0 /* ZATabBarButton.m */,
+				748897FE1E6E59F600FFD0C0 /* ZABadgeView.h */,
+				748897FF1E6E59F600FFD0C0 /* ZABadgeView.m */,
+				748898011E6E5A1C00FFD0C0 /* UIView+Frame.h */,
+				748898021E6E5A1C00FFD0C0 /* UIView+Frame.m */,
+				748898041E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.h */,
+				748898051E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.m */,
+			);
+			name = ZATabBarResource;
+			sourceTree = "<group>";
+		};
+		748898371E6E5EAD00FFD0C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				748898381E6E5EE700FFD0C0 /* ZAViewControllerOne.h */,
+				748898391E6E5EE700FFD0C0 /* ZAViewControllerOne.m */,
+				7488983B1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.h */,
+				7488983C1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.m */,
+				7488983E1E6E5F1100FFD0C0 /* ZAViewControllerThree.h */,
+				7488983F1E6E5F1100FFD0C0 /* ZAViewControllerThree.m */,
+				748898411E6E5F1D00FFD0C0 /* ZAViewControllerFor.h */,
+				748898421E6E5F1D00FFD0C0 /* ZAViewControllerFor.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		748898441E6E61D100FFD0C0 /* JieDaiBaoImage */ = {
+			isa = PBXGroup;
+			children = (
+				748898871E6E8A3000FFD0C0 /* loan@2px.png */,
+				7488985B1E6E7D8A00FFD0C0 /* fabu_pressed@2x.png */,
+				7488985D1E6E7D9F00FFD0C0 /* tabbar_mainbtn@2x.png */,
+				748898711E6E81AC00FFD0C0 /* tabbar_message_center@3x.png */,
+				7488986F1E6E817E00FFD0C0 /* tabbar_message_center_selected@3x.png */,
+				748898791E6E832600FFD0C0 /* tabbar_discover@2x.png */,
+				748898771E6E82F900FFD0C0 /* tabbar_discover@3x.png */,
+				748898751E6E82D300FFD0C0 /* tabbar_discover_selected@2x.png */,
+				748898731E6E82A500FFD0C0 /* tabbar_discover_selected@3x.png */,
+				748898811E6E846300FFD0C0 /* tabbar_profile@2x.png */,
+				7488987F1E6E844D00FFD0C0 /* tabbar_profile@3x.png */,
+				7488987D1E6E843E00FFD0C0 /* tabbar_profile_selected@2x.png */,
+				7488987B1E6E841500FFD0C0 /* tabbar_profile_selected@3x.png */,
+				7488980D1E6E5E2000FFD0C0 /* tabbar_background@2x.png */,
+				7488980E1E6E5E2000FFD0C0 /* tabbar_background_os7@2x.png */,
+				748898091E6E5E2000FFD0C0 /* main_badge@2x.png */,
+				7488980A1E6E5E2000FFD0C0 /* main_badge@3x.png */,
+				7488980B1E6E5E2000FFD0C0 /* new_dot@2x.png */,
+				7488980C1E6E5E2000FFD0C0 /* new_dot@3x.png */,
+			);
+			name = JieDaiBaoImage;
+			sourceTree = "<group>";
+		};
+		748898891E6E8DEA00FFD0C0 /* 加号按钮点击进去的视图 */ = {
+			isa = PBXGroup;
+			children = (
+				748897FB1E6E588700FFD0C0 /* MainViewController.h */,
+				748897FC1E6E588700FFD0C0 /* MainViewController.m */,
+			);
+			name = "加号按钮点击进去的视图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +396,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				748897961E6E51B400FFD0C0 /* LaunchScreen.storyboard in Resources */,
+				748898211E6E5E2100FFD0C0 /* main_badge@2x.png in Resources */,
 				748897931E6E51B400FFD0C0 /* Assets.xcassets in Resources */,
+				748898231E6E5E2100FFD0C0 /* new_dot@2x.png in Resources */,
+				7488987A1E6E832600FFD0C0 /* tabbar_discover@2x.png in Resources */,
+				748898761E6E82D300FFD0C0 /* tabbar_discover_selected@2x.png in Resources */,
+				748898801E6E844D00FFD0C0 /* tabbar_profile@3x.png in Resources */,
+				7488987C1E6E841500FFD0C0 /* tabbar_profile_selected@3x.png in Resources */,
 				748897911E6E51B400FFD0C0 /* Main.storyboard in Resources */,
+				748898741E6E82A500FFD0C0 /* tabbar_discover_selected@3x.png in Resources */,
+				748898701E6E817E00FFD0C0 /* tabbar_message_center_selected@3x.png in Resources */,
+				748898261E6E5E2100FFD0C0 /* tabbar_background_os7@2x.png in Resources */,
+				748898781E6E82F900FFD0C0 /* tabbar_discover@3x.png in Resources */,
+				748898881E6E8A3000FFD0C0 /* loan@2px.png in Resources */,
+				7488987E1E6E843E00FFD0C0 /* tabbar_profile_selected@2x.png in Resources */,
+				748898241E6E5E2100FFD0C0 /* new_dot@3x.png in Resources */,
+				748898221E6E5E2100FFD0C0 /* main_badge@3x.png in Resources */,
+				748898721E6E81AC00FFD0C0 /* tabbar_message_center@3x.png in Resources */,
+				7488985E1E6E7D9F00FFD0C0 /* tabbar_mainbtn@2x.png in Resources */,
+				748898251E6E5E2100FFD0C0 /* tabbar_background@2x.png in Resources */,
+				748898821E6E846300FFD0C0 /* tabbar_profile@2x.png in Resources */,
+				7488985C1E6E7D8A00FFD0C0 /* fabu_pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +441,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7488978E1E6E51B400FFD0C0 /* ViewController.m in Sources */,
+				748898431E6E5F1D00FFD0C0 /* ZAViewControllerFor.m in Sources */,
+				748898401E6E5F1100FFD0C0 /* ZAViewControllerThree.m in Sources */,
+				7488983A1E6E5EE700FFD0C0 /* ZAViewControllerOne.m in Sources */,
+				748898001E6E59F600FFD0C0 /* ZABadgeView.m in Sources */,
+				748897BF1E6E53F800FFD0C0 /* ZATabBar.m in Sources */,
+				748897FA1E6E580600FFD0C0 /* ZATabBarButton.m in Sources */,
+				748897FD1E6E588700FFD0C0 /* MainViewController.m in Sources */,
+				748897F71E6E577600FFD0C0 /* UIImage+ZAImage.m in Sources */,
 				7488978B1E6E51B400FFD0C0 /* AppDelegate.m in Sources */,
+				748898061E6E5A4B00FFD0C0 /* UIBarButtonItem+ZAItem.m in Sources */,
+				748897BC1E6E53D600FFD0C0 /* ZATabBarController.m in Sources */,
+				7488983D1E6E5EFB00FFD0C0 /* ZAViewControllerTwo.m in Sources */,
+				748898031E6E5A1C00FFD0C0 /* UIView+Frame.m in Sources */,
 				748897881E6E51B400FFD0C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +680,7 @@
 				748897B21E6E51B400FFD0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748897B31E6E51B400FFD0C0 /* Build configuration list for PBXNativeTarget "自定义TabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +689,7 @@
 				748897B51E6E51B400FFD0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748897B61E6E51B400FFD0C0 /* Build configuration list for PBXNativeTarget "自定义TabBarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +698,7 @@
 				748897B81E6E51B400FFD0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
